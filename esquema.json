@@ -1,0 +1,24 @@
+{
+  "nombre": {
+    "tipo": "texto",
+    "regex": "^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{2,}$",
+    "placeholder": "Ej: Maximiliano"
+  },
+  "edad": {
+    "tipo": "numero",
+    "min": 0,
+    "max": 120
+  },
+  "email": {
+    "tipo": "texto",
+    "regex": "^[\\w.-]+@[\\w.-]+\\.\\w{2,4}$",
+    "placeholder": "Ej: ejemplo@mail.com"
+  },
+  "lenguajes": {
+    "tipo": "lista",
+    "placeholder": "Ej: Python, JavaScript"
+  },
+  "activo": {
+    "tipo": "booleano"
+  }
+}
